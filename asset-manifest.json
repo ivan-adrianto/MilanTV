@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/MilanTV/static/css/main.535db2b9.chunk.css",
+    "main.js": "/MilanTV/static/js/main.cf298eb2.chunk.js",
+    "main.js.map": "/MilanTV/static/js/main.cf298eb2.chunk.js.map",
+    "runtime-main.js": "/MilanTV/static/js/runtime-main.26c79694.js",
+    "runtime-main.js.map": "/MilanTV/static/js/runtime-main.26c79694.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/MilanTV/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.05274523.chunk.js": "/MilanTV/static/js/2.05274523.chunk.js",
+    "static/js/2.05274523.chunk.js.map": "/MilanTV/static/js/2.05274523.chunk.js.map",
+    "index.html": "/MilanTV/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/MilanTV/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.535db2b9.chunk.css.map": "/MilanTV/static/css/main.535db2b9.chunk.css.map",
+    "static/js/2.05274523.chunk.js.LICENSE.txt": "/MilanTV/static/js/2.05274523.chunk.js.LICENSE.txt",
+    "static/media/Joker.bfa9c888.jpg": "/MilanTV/static/media/Joker.bfa9c888.jpg",
+    "static/media/chat.562abdb5.svg": "/MilanTV/static/media/chat.562abdb5.svg",
+    "static/media/darkknight2.6f4e7da5.jpg": "/MilanTV/static/media/darkknight2.6f4e7da5.jpg",
+    "static/media/got2.72cffbbe.jpg": "/MilanTV/static/media/got2.72cffbbe.jpg",
+    "static/media/instagram 1.3a7decd5.png": "/MilanTV/static/media/instagram 1.3a7decd5.png",
+    "static/media/milanLogo.44531c9f.jpg": "/MilanTV/static/media/milanLogo.44531c9f.jpg",
+    "static/media/profilemockup.bc42b7c9.jpg": "/MilanTV/static/media/profilemockup.bc42b7c9.jpg",
+    "static/media/search.8244b803.svg": "/MilanTV/static/media/search.8244b803.svg",
+    "static/media/star.e6221172.svg": "/MilanTV/static/media/star.e6221172.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26c79694.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.05274523.chunk.js",
+    "static/css/main.535db2b9.chunk.css",
+    "static/js/main.cf298eb2.chunk.js"
+  ]
+}
