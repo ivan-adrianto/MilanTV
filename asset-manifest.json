@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MilanTV/static/css/main.535db2b9.chunk.css",
+    "main.css": "/MilanTV/static/css/main.7149f511.chunk.css",
     "main.js": "/MilanTV/static/js/main.0d56419a.chunk.js",
     "main.js.map": "/MilanTV/static/js/main.0d56419a.chunk.js.map",
     "runtime-main.js": "/MilanTV/static/js/runtime-main.26c79694.js",
@@ -10,7 +10,7 @@
     "static/js/2.762f0ae6.chunk.js.map": "/MilanTV/static/js/2.762f0ae6.chunk.js.map",
     "index.html": "/MilanTV/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/MilanTV/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.535db2b9.chunk.css.map": "/MilanTV/static/css/main.535db2b9.chunk.css.map",
+    "static/css/main.7149f511.chunk.css.map": "/MilanTV/static/css/main.7149f511.chunk.css.map",
     "static/js/2.762f0ae6.chunk.js.LICENSE.txt": "/MilanTV/static/js/2.762f0ae6.chunk.js.LICENSE.txt",
     "static/media/Joker.bfa9c888.jpg": "/MilanTV/static/media/Joker.bfa9c888.jpg",
     "static/media/chat.562abdb5.svg": "/MilanTV/static/media/chat.562abdb5.svg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.26c79694.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.762f0ae6.chunk.js",
-    "static/css/main.535db2b9.chunk.css",
+    "static/css/main.7149f511.chunk.css",
     "static/js/main.0d56419a.chunk.js"
   ]
 }
