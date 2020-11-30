@@ -1,0 +1,37 @@
+.character {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.character h1 {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    margin-top: 8px;
+    font-weight: 700;
+}
+
+.character h2 {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.character img {
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#char-card {
+    width: 200px;
+    background-color: #fe024e;
+    color: white;
+    border-radius: 10px;
+}
+
+#char-card:hover {
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+    background-color: #d1003f;
+}

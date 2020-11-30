@@ -1,0 +1,98 @@
+#textareaReview {
+    width: 600px;
+    height: 123px;
+    left: 155px;
+    top: 1059px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#reviewButton {
+    background-color: #e84545 !important;
+    color: white;
+}
+
+
+/* .some-page-wrapper {
+    margin: 15px;  
+    background-color: #e84545 !important;
+    
+} */
+
+
+/* .SubmitReview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.AllReview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.commentColumn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+} */
+
+#fotoprofilReview img {
+    position: absolute;
+    width: 137px;
+    height: 143px;
+    border-radius: 10px;
+}
+
+
+/* Desktop Version */
+
+@media (min-width: 992px) {
+    .signUpButton {
+        position: absolute;
+        width: 120px;
+        height: 40px;
+        left: 1130px;
+        top: 15px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px !important;
+        line-height: 50px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .signUpButton {
+        position: absolute;
+        width: 120px;
+        height: 40px;
+        left: 1223px;
+        top: 18px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px !important;
+        line-height: 50px;
+    }
+}

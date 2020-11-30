@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+.error-login {
+    position: relative;
+    left: 500px;
+    top: 10px;
+}
+
+.profilePage {
+    margin-top: 5vh;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+.profilePage label {
+    margin-top: 17px;
+    margin-bottom: 3px;
+    color: white;
+    position: relative;
+    left: 10vw;
+    font-weight: 600;
+}
+
+#fotoprofil img {
+    border-radius: 1000px;
+    width: 200px;
+    margin-left: 25vw;
+    margin-top: 30px;
+}
+
+.profilePage input {
+    border-radius: 10px;
+    border: #e84545 solid 3px;
+    font-size: 24px;
+    color: #e84545;
+    width: 70vw;
+    height: 8vh;
+    padding-left: 20px;
+    position: relative;
+    left: 10vw;
+}
+
+.profile-menu {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.profile-menu .reviews {
+    margin-left: 50px;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+.saveprofile {
+    background-color: white;
+    border: 5px solid #eb8f8d;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #e84545;
+    margin-top: 30px;
+    text-align: center;
+    width: 70vw;
+    position: relative;
+    left: 10vw;
+}
+
+.saveprofile-active {
+    background-color: #e84545 !important;
+    color: white !important;
+}
+
+#leftside {
+    background-color: #e84545;
+    padding: 10px 30px 10px 10px;
+    border-radius: 40px;
+    height: 110vh;
+    margin-top: 50px;
+}
+
+#rightside img {
+    position: absolute;
+    z-index: 1;
+}
+
+.reviews-active {
+    background-color: #e84545 !important;
+    color: white !important;
+    border: 0px;
+    height: 50px;
+    border-radius: 30px !important;
+    width: 200px;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.wishlists {
+    background-color: white;
+    color: white;
+    border: 0px;
+    height: 50px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    top: 90px;
+    margin-bottom: 15px;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 200px;
+    margin: 100px auto;
+}
+
+.double-bounce1,
+.double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #e84545 !important;
+    opacity: 0.6;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+    0%,
+    100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bounce {
+    0%,
+    100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+
+/*  */
+
+
+/* Desktop Version */
+
+
+/*  */
+
+@media (min-width: 992px) {
+    #fotoprofil img {
+        border-radius: 1000px;
+        width: 200px;
+        margin-left: 25px;
+    }
+    .profilePage {
+        margin-top: 100px;
+        font-family: 'Montserrat';
+        font-size: 20px;
+    }
+    .profilePage label {
+        margin-top: 17px;
+        margin-bottom: 3px;
+        color: white;
+        position: relative;
+        left: 10px;
+    }
+    .profilePage input {
+        border-radius: 10px;
+        border: #e84545 solid 3px;
+        font-size: 20px;
+        color: #e84545;
+        width: 250px;
+        height: 50px;
+        padding-left: 20px;
+        position: relative;
+        left: 7px;
+    }
+    #leftside {
+        background-color: #e84545;
+        padding: 10px 30px 10px 10px;
+        border-radius: 40px;
+        height: 750px;
+    }
+    .saveprofile {
+        background-color: white;
+        border: 5px solid #eb8f8d;
+        border-radius: 20px;
+        font-size: 25px;
+        font-weight: 800;
+        color: #e84545;
+        margin-top: 20px;
+        text-align: center;
+        width: 250px;
+        position: relative;
+        left: 10px;
+    }
+    .wishlists {
+        background-color: white;
+        color: white;
+        border: 0px;
+        height: 50px;
+        border-radius: 10px;
+        width: 220px;
+        font-size: 20px !important;
+        position: relative;
+        top: 0px;
+        font-weight: 600 !important;
+    }
+}

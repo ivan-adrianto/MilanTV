@@ -1,0 +1,36 @@
+import React, { Component } from 'react'
+import { Route, Switch, NavLink, Link } from 'react-router-dom'
+import Profile from './component/pages/profile/Profile'
+import MovieDetails from './component/pages/movie-details/MovieDetails'
+import DisplayBySearch from './component/pages/search/DisplayBySearch'
+import Homepage from './component/pages/homepage/Homepage'
+
+
+
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Switch>
+          <Route exact path='/'>
+            <Homepage />
+          </Route>
+          <Route path="/profile/">
+            <Profile />
+          </Route>
+          <Route path='/search/:keyword'>
+            <DisplayBySearch />
+          </Route>
+          <Route exact path="/movie-details/:id">
+            <MovieDetails />
+          </Route>
+        </Switch>
+
+      </div>
+
+    )
+  }
+}
+
+export default App

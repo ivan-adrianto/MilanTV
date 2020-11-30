@@ -1,0 +1,17 @@
+image: node:14.15.0-buster
+
+stages:
+- deploy
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Deployment start..."
+    - apt-get update -yq
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - dpl --provider=heroku --app=$REPO_NAME --api-key=$HEROKU_API_KEY
+    - echo "Deployment end..."
+  only:
+    - master
+    - dev-after 

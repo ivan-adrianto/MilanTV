@@ -1,0 +1,148 @@
+.reviewBox {
+    border: solid;
+    border-radius: 80px 80px 80px 0px;
+    padding: 40px 40px 60px 40px;
+    background-color: #e84545;
+    color: white;
+    width: 80vw;
+    margin-left: 20px;
+    position: relative;
+    top: 90px;
+}
+
+.reviewData h3 {
+    color: white;
+    font-size: 20px;
+    max-width: 350px;
+    font-weight: 600;
+}
+
+.reviewData {
+    margin-top: 0px;
+    width: 550px;
+}
+
+.reviewData p {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 350px;
+}
+
+.reviewData .deleteIcon button:hover {
+    background-color: red;
+    color: white;
+}
+
+.reviewData .btn-dark {
+    border: 0px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    z-index: 7;
+    left: 540px;
+    top: -26px;
+    font-size: 18px !important;
+    border: white 2px solid;
+    color: black !important;
+    padding: 2px 15px;
+}
+
+.reviewData .btn-secondary {
+    border: 0px;
+    border-radius: 10px;
+    background-color: white !important;
+    position: relative;
+    z-index: 7;
+    left: 220px;
+    top: -70px;
+    font-size: 18px !important;
+    border: white 2px solid;
+    color: black;
+    padding: 2px 15px;
+    font-weight: 600;
+}
+
+.reviewData .btn-secondary:hover {
+    background-color: red !important;
+    color: white;
+    border: white solid 2px;
+}
+
+.reviewData .btn-dark:hover {
+    background-color: #DFE0E4!important;
+    color: black;
+    border: white solid 2px;
+}
+
+.dropdownProfile {
+    border-radius: 8px;
+    height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.textareaProfile {
+    border-radius: 10px;
+}
+
+.isi-review span {
+    width: 400px;
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/* Desktop Version */
+
+
+/*  */
+
+
+/*  */
+
+@media (min-width: 992px) {
+    .reviewBox {
+        border: solid;
+        border-radius: 80px 80px 80px 0px;
+        padding: 40px 40px 60px 40px;
+        background-color: #e84545;
+        color: white;
+        width: 800px;
+        margin-left: 20px;
+        position: relative;
+        top: 0px;
+    }
+    .reviewData {
+        margin-top: -100px;
+        width: 550px;
+    }
+    .reviewData p {
+        font-size: 18px;
+        font-weight: 400;
+        max-width: 730px;
+        font-weight: 500;
+    }
+    .reviewData .btn-secondary {
+        border: 0px;
+        border-radius: 10px;
+        background-color: white !important;
+        position: relative;
+        z-index: 7;
+        left: 580px;
+        top: -70px;
+        font-size: 18px !important;
+        border: white 2px solid;
+        color: black;
+        padding: 2px 15px;
+    }
+    .reviewData h3 {
+        color: white;
+        font-size: 20px;
+        max-width: 730px;
+    }
+}

@@ -1,0 +1,48 @@
+.fromAnotherAPI {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.fromAnotherAPI h5 {
+    color: white;
+    margin-bottom: 0px;
+    font-size: 30px;
+    max-width: 350px;
+}
+
+.fromAnotherAPI img {
+    position: relative;
+    /* top: 0px;
+    left: 500px; */
+    height: 0px;
+    top: 30px;
+    margin-top: 0px;
+    border-radius: 10px;
+    z-index: 1;
+    float: right;
+    border: 2px solid;
+    border-color: white;
+}
+
+@media (min-width: 992px) {
+    .fromAnotherAPI h5 {
+        color: white;
+        margin-bottom: 0px;
+        font-size: 30px;
+        max-width: 730px;
+    }
+    .fromAnotherAPI img {
+        position: relative;
+        /* top: 0px;
+        left: 500px; */
+        height: 150px;
+        top: 30px;
+        margin-top: 0px;
+        border-radius: 10px;
+        z-index: 1;
+        float: right;
+        border: 2px solid;
+        border-color: white;
+    }
+}

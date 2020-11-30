@@ -1,0 +1,19 @@
+.logout {
+    display: flex;
+    position: absolute;
+    width: 120px;
+    height: 38px;
+    left: 85vw;
+    top: 2.2vh;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px !important;
+    line-height: 50px;
+    background-color: #e84545 !important;
+    color: white;
+    border: 0px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+}

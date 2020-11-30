@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+.logoHeader {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 22px;
+}
+
+.logoHeader .logo1 {
+    z-index: 2;
+    position: absolute;
+    width: 45px;
+    left: 85px;
+    top: 17px;
+}
+
+.navigation h1 {
+    font-family: "Montserrat";
+    font-size: 0px !important;
+    position: absolute;
+    width: 120px;
+    left: 160px;
+    top: 17.5px;
+    color: black;
+}
+
+.form-control {
+    position: absolute;
+    width: 750px !important;
+    height: 38.5px !important;
+    left: 330.5px;
+    top: 17px;
+}
+
+::placeholder {
+    font-size: 24px;
+}
+
+input[type="search"] {
+    font-size: 24px !important;
+    color: black;
+}
+
+.profil {
+    position: absolute;
+    height: 40px;
+    left: 370px;
+    top: 15px;
+    border-radius: 1000px;
+    margin-right: 32px;
+}
+
+.signUpButton {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 450px;
+    top: 18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px !important;
+    line-height: 50px;
+}
+
+.searchIcon {
+    width: 30px;
+    position: relative;
+    left: 1038px;
+    top: 0px;
+    margin-bottom: 0px;
+}
+
+.searchIcon img {
+    height: 30px;
+    position: relative;
+    left: -725px;
+    top: -47px;
+}
+
+.navbar-input {
+    position: relative;
+    left: 80px;
+    top: 42px;
+    width: 270px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid rgb(131, 131, 131);
+    padding: 10px;
+    font-size: 23px;
+}
+
+.navigation {
+    margin-bottom: -100px;
+}
+
+input[type=text]:focus {
+    border: 0px solid #555 !important;
+    border-radius: 40px !important;
+}
+
+
+/* Desktop Version */
+
+@media (min-width: 992px) {
+    .navigation h1 {
+        font-family: "Montserrat";
+        font-size: 20px !important;
+        position: absolute;
+        width: 108px;
+        left: 144px;
+        top: 17.5px;
+        color: black;
+    }
+    .logoHeader {
+        display: flex;
+        margin-left: 28.8px;
+        margin-top: 22px;
+    }
+    .logoHeader .logo1 {
+        z-index: 2;
+    }
+    .logoHeader .logo2 {
+        z-index: 1;
+        position: absolute;
+        width: 61.6px;
+        height: 44.5px;
+        left: 73.8px;
+        top: 11px;
+    }
+    .navbar-input {
+        position: relative;
+        left: 280px;
+        top: -8px;
+        width: 720px;
+        height: 39.6px;
+        border-radius: 8px;
+        border: 1px solid rgb(131, 131, 131);
+        padding: 9px;
+        font-size: 20.7px;
+    }
+    .searchIcon img {
+        height: 27px;
+        position: relative;
+        left: -75px;
+        top: -42px;
+    }
+    .profil {
+        position: absolute;
+        height: 45px;
+        left: 1040px;
+        top: 11px;
+        border-radius: 1000px;
+        margin-right: 28.8px;
+    }
+}
+
+
+/* Extra Large Desktop */
+
+@media screen and (min-width: 1400px) {
+    .navigation h1 {
+        font-family: "Montserrat";
+        font-size: 26px !important;
+        font-weight: 700;
+        position: absolute;
+        width: 120px;
+        left: 136px;
+        top: 19px;
+        color: black;
+    }
+    .logoHeader {
+        display: flex;
+        margin-left: 32px;
+        margin-top: 22px;
+    }
+    .navbar-input {
+        position: relative;
+        left: 380px;
+        top: -8px;
+        width: 600px;
+        height: 44px;
+        border-radius: 40px;
+        border: 1px solid rgb(131, 131, 131);
+        padding: 10px 20px;
+        font-size: 23px;
+    }
+    .navbar-input:focus {
+        border: 5 px solid #555 !important;
+        border-radius: 40px !important;
+        /* outline: none; */
+    }
+    .searchIcon img {
+        height: 25px;
+        position: relative;
+        left: -98px;
+        top: -43px;
+    }
+    .navbar-input::placeholder {
+        font-size: 22px;
+    }
+    .profil {
+        position: absolute;
+        height: 40px;
+        left: 1167px;
+        top: 15px;
+        border-radius: 1000px;
+        margin-right: 32px;
+    }
+}

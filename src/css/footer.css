@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+.footer {
+    background-color: black;
+    padding-top: 56px;
+    color: white;
+    font-family: 'Montserrat';
+    /* position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+}
+
+.logoFooter {
+    display: flex;
+    margin-bottom: 13px;
+    margin-left: -115px;
+}
+
+.logoFooter .logo1 {
+    z-index: 1;
+    position: relative;
+    width: 27.5px;
+    height: 37.5px;
+    left: 135px;
+    margin-top: 7px;
+}
+
+.logoFooter .logo2 {
+    z-index: 0;
+    position: relative;
+    width: 68.5px;
+    height: 49.5px;
+    left: 85.5px;
+}
+
+.stores {
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.googlePlay {
+    width: 150px;
+}
+
+.appstore {
+    width: 148px;
+    margin-top: 8px;
+}
+
+.socmed {
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.socmed img {
+    margin: 8px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.insta {
+    height: 10px;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+.footer p {
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
+
+.footer h1 {
+    font-family: "Montserrat";
+    font-size: 32px !important;
+    position: relative;
+    width: 120px;
+    left: 95px;
+    top: 8px;
+    color: white;
+}
+
+.footer h5 {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.footer h4 {
+    font-size: 18px;
+}

@@ -1,0 +1,204 @@
+.searchMania {
+    margin-top: 100px;
+}
+
+
+/* .searched {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 3vw;
+} */
+
+.searched img {
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+    /* width: 200px; */
+    margin: auto;
+}
+
+.searched a {
+    border-radius: 10px;
+    height: 300px;
+    /* width: 200px; */
+    margin: auto;
+}
+
+.searched h1 {
+    font-size: 22px;
+    text-align: left;
+    margin-top: 0px;
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    margin-left: 10 px;
+}
+
+.searchbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #fe024e;
+    width: 80%;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s
+}
+
+.star-rating img {
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+.star-rating h2 {
+    position: relative;
+    top: -11px;
+    left: 30px;
+    color: white;
+    font-size: 17px;
+    font-weight: 200px;
+    font-family: 'Montserrat';
+    margin-bottom: -5px;
+}
+
+.searchbox:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.double-bounce1,
+.double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #333;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+    0%,
+    100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bounce {
+    0%,
+    100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+@media (min-width: 992px) {
+    .searchMania {
+        margin-top: 100px;
+    }
+    /* .searched {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        left: 0vw;
+    } */
+    .searched img {
+        border-radius: 10px 10px 10px 10px;
+        width: 210px;
+        /* margin: auto; */
+        position: relative;
+        top: 0px;
+    }
+    .searched {
+        margin-bottom: 30px;
+    }
+    .searched a {
+        border-radius: 10px;
+        height: 300px;
+        margin: auto;
+    }
+    .searched h1 {
+        font-size: 21px;
+        text-align: left;
+        margin-top: 0px;
+        margin-left: 15px;
+        color: white;
+        margin-bottom: 20px;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        width: 180px;
+    }
+    .searched h3 {
+        font-size: 17px;
+        text-align: left;
+        margin-top: 0px;
+        margin-left: 10px;
+        color: white;
+        margin-bottom: 15px;
+        font-family: 'Montserrat';
+        font-weight: 600;
+    }
+    .searchbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: #fe024e;
+        width: 210px;
+        padding-bottom: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .star-rating {
+        margin-top: -0px;
+    }
+    .star-rating img {
+        height: 21px;
+        width: 19px;
+        margin-top: 7px;
+        margin-left: 15px;
+        margin-bottom: -10px;
+    }
+    .star-rating h2 {
+        position: relative;
+        top: -11px;
+        left: 30px;
+        color: white;
+        font-size: 17.3px;
+        font-weight: 200px;
+        font-family: 'Montserrat';
+        margin-bottom: -5px;
+        margin-left: 10px;
+    }
+    .searchbox:hover {
+        cursor: pointer;
+        box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+        opacity: 0.895;
+    }
+}

@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
+.carousel {
+    margin-top: 80px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.carousel::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.carousel h2 {
+    font-size: 36px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    top: -46vh;
+    left: -12vw;
+}
+
+.carousel h1 {
+    font-size: 72px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-align: left;
+}
+
+.carousel h3 {
+    position: relative;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.carousel p {
+    font-size: 19px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-align: left;
+}
+
+.rating-caro {
+    margin-right: 12vw;
+}
+
+.review-caro img {
+    text-align: left;
+    height: 22px;
+    margin-right: 10px;
+    position: relative;
+    top: 2.5px;
+}
+
+.review-caro h4 {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 600;
+    background-color: none;
+}
+
+.carousel .star-icon {
+    height: 22px;
+    position: relative;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.gambar {
+    object-fit: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.content {
+    margin-bottom: 40px;
+}
+
+.content h2 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #ec524b;
+    font-size: 36px;
+}
+
+.browse {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #ec524b;
+    font-size: 36px;
+    font-family: 'Montserrat';
+}
+
+#bodi {
+    min-height: 200px;
+    background-color: #ec524b;
+    color: white;
+    border-radius: 0px 0px 15px 15px;
+    font-size: 17.1px;
+}
+
+.home-rating {
+    margin-top: 15px;
+}
+
+.home-star {
+    height: 20px;
+    margin-top: -20px;
+}
+
+.home-rating h3 {
+    margin-top: -20px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin-left: 7px;
+}
+
+#bodi h2 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.card {
+    outline: none !important;
+    border: 0px !important;
+}
+
+.kartu {
+    margin-bottom: 60px;
+    margin-left: 30px;
+}
+
+.kartu img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.kartu:hover {
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+    background: #eceff3;
+}
+
+.pagi {
+    margin-top: 100px;
+    margin-left: 400px;
+    font-family: 'Montserrat';
+    font-size: 20px !important;
+}
+
+.pagi a {
+    color: black;
+    font-size: 20px !important;
+    font-weight: 600;
+}
+
+.pagi-act {
+    color: red;
+}
+
+.synopsis {
+    margin-top: 40px;
+}
+
+.synopsis p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.synopsis h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#cursor:hover {
+    cursor: pointer;
+}
+
+#tombol {
+    background-color: white;
+    color: #ec524b;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #ec524b;
+    min-width: 120px;
+    padding: 5px 20px;
+    margin: 0px 5px;
+    border-radius: 40px;
+}
+
+#tombol:hover {
+    background-color: #ec524b;
+    color: white;
+}
+
+.sajarotun {
+    height: 100vh;
+}
+
+.btn-primary {
+    background-color: #ec524b !important;
+    border: 0px !important;
+}
+
+.catbutton {
+    background-color: white;
+    color: #ec524b;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #ec524b;
+    min-width: 120px;
+    padding: 5px 20px;
+    margin: 0px 5px;
+    border-radius: 40px;
+}
+
+.catbutton-active {
+    background-color: #ec524b;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0px solid white !important;
+    min-width: 120px;
+    padding: 6px 20px;
+    margin: 10px 5px;
+    border-radius: 40px;
+}
+
+.cukup {
+    margin-bottom: 30px;
+}
+
+.fidget {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 70px;
+    left: 530px;
+}

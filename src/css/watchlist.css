@@ -1,0 +1,124 @@
+.watchlist img {
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.watchlist h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18.5px;
+}
+
+.watchlist {
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.watchlist .icon button {
+    border: 0px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    left: 190px;
+    top: 12px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.watchlist .icon button:hover {
+    background-color: red;
+    color: white;
+}
+
+.watchcard {
+    display: flex;
+    flex-direction: column;
+    width: 300 px;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #fe024e;
+    width: 200px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.watchcard h1 {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0px;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin-left: 16px;
+    width: 170px;
+}
+
+.watchcard .star-rating {
+    margin-top: -5px;
+}
+
+.watchcard .star-rating h2 {
+    position: relative;
+    top: -14px;
+    left: 35px;
+}
+
+.double-bounce1,
+.double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #333;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+    0%,
+    100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bounce {
+    0%,
+    100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+.loading-icon {
+    position: relative;
+    top: 200px;
+}
+
+@media (min-width: 992px) {
+    .watchlist {
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+}
