@@ -1,4 +1,5 @@
 # Milan TV by Team F Glints x Binar Academy Batch 8
+link: https://ivan-adrianto.github.io/MilanTV
 
 In this web, you can: 
 1. Watch data of movie details
